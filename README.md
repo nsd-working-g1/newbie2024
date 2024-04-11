@@ -18,10 +18,11 @@
 各作業ディレクトリでは、README.md をなるべく用意する。そのサンプルコードが何のために用意されたのかを記述しておくこと。記述は簡単で良い。
 
 - html-css-js
-  - ettsu_calculator
-    - README.md
-  - ettsu_20240410-test
-    - README.md
+  - ettsu
+    - calculator
+      - README.md
+    - 20240410-test
+      - README.md
 
 
 ### 記述例
