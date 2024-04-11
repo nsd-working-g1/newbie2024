@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小テスト</title>
+    <style>
+        .heading {
+            background-color: darkred;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">メッセージを表示</h1>
+    
+    <script>
+        function showOddOrEven(start, end) {
+            for (let i = start; i <= end; i++) {
+                const isEven = i % 2 == 0;
+                console.log(isEven ? "偶数" : "奇数");
+            }
+        }
+
+        function main()
+        {
+            showOddOrEven(1, 5);
+        }
+    </script>
+</body>
+</html>
